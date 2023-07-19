@@ -161,6 +161,7 @@ background: rgba(11, 2, 35, 0.10);
 .video-img{
     display: flex;
     width: 1400px;
+    height: 550px;
     margin: 0 auto;
     gap: 20px;
 }
