@@ -64,45 +64,149 @@ background: rgba(11, 2, 35, 0.10);
 }
 
 
-/* header-section-is-started */
+/* banner-section-is-started */
 
+.banner-container{
+    min-height: 200px;
+    max-width: 1650px;
+    display: flex;
+}
+.banner-img img{
+    width: 100%;
+}
 
+.banner-content{
+    width: 50%;
+    background-image: url(../images/Group\ 14.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    padding-top: 10%;
+}
 
+.banner-img{
+    width: 50%;
+}
 
+.banner-content h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+}
 
+.banner-content h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+   margin: 0;
+   background-image: linear-gradient(to bottom, #FF42A5, #8d6ee2);
+   color: transparent;
+   -webkit-background-clip: text;
+}
 
+.banner-content p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.banner-btn{
+    border-radius: 48px;
+    background-color: #FF42A5;
+    color: white;
+    border: none;
+    padding: 21px 40px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.banner-color{
+    margin-left: 15px;
+    background-color: #4EC5F7;
+}
 
+/* video section is started  */
 
+.video-section{
+    margin-top: 90px;
+    
+}
+.video-title{
+    text-align: center;
+}
 
+.video-title h1{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.video-title-text{
+    background-image: linear-gradient(to bottom, #FF42A5, #8d6ee2);
+   color: transparent;
+   -webkit-background-clip: text;
+}
+.video-title p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.video-img{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.video-img-card p{
+    width: 80%;
+}
 
+.video-img-card img{
+    width: 340px;
+    height: 400px;
+    object-fit: cover;
+}
+.video-background{
+    font-size: 30px;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    position: absolute;
+    background: #0B0223;
+    width: 340px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    transition: .1s;
+    border-radius: 10px;
+    border: 3px solid #FF42A5;
+}
+.video-img-card{
+    position: relative;
+    width: 340px;
+    height: 400px;
+    cursor: pointer;
+}
+.video-img-card:hover .video-background{
+    visibility: visible;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.video-background p{
+    font-size: 20px;
+    color:  #FF42A5;
+}
 
 
 
