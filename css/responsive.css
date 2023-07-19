@@ -1,0 +1,27 @@
+@media screen and (max-width: 650px){
+    .header-container, .header-items{
+        flex-direction: column;
+    }
+    .header-items{
+        width: 100%;
+        gap: 20px;
+    }
+    .header-items a{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .header-items .header-btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header-logo{
+        margin-left: 20%;
+    }
+
+
+
+
+
+
+    
+}
